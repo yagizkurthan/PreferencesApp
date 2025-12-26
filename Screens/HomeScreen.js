@@ -22,3 +22,9 @@ export default function HomeScreen({ navigation }) {
     </View>
   );
 }
+const styles = StyleSheet.create({
+  container: { flex: 1, padding: 16, justifyContent: 'center' },
+  title: { fontSize: 22, fontWeight: '600', marginBottom: 12 },
+  button: { padding: 12, borderRadius: 8, backgroundColor: '#111' },
+  buttonText: { color: 'white', textAlign: 'center', fontWeight: '600' },
+});
